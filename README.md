@@ -81,5 +81,3 @@ Each week contains:
 ## 📚 Resources
 
 See [`resources.md`](resources.md) for books, docs, and tutorials.
-
-this is my edition
