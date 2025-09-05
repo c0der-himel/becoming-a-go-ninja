@@ -15,13 +15,6 @@
 /vendor/
 
 # ==========================
-# Go module files
-# ==========================
-# go.mod and go.sum should usually be committed!
-# Ignore only temporary files
-*.sum
-
-# ==========================
 # Editor & IDE files
 # ==========================
 *.swp
