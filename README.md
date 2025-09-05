@@ -3,9 +3,7 @@
 This repository tracks my **1-month Go learning journey**  
 Each week contains:
 
-- `notes.md` → Key learnings
-- `exercises/` → Practice code
-- `summary.md` → Weekly reflection
+- `Project` → Weekly Project
 
 ---
 
@@ -20,7 +18,7 @@ Each week contains:
 - Arrays, Slices, Maps
 - Packages & Modules
 
-**Assignment:**
+**Project:**
 
 - Build a simple CLI calculator or todo list
 
@@ -35,7 +33,7 @@ Each week contains:
 - Pointers & Memory
 - Goroutines & Channels
 
-**Assignment:**
+**Project:**
 
 - Build a JSON-based CLI tool (`Todo manager`)
 - Add concurrency (`goroutines`) for some operations
@@ -51,7 +49,7 @@ Each week contains:
 - Middleware (`logging, auth`)
 - Database integration (`MySQL/Postgres with GORM`)
 
-**Assignment:**
+**Project:**
 
 - Build a CRUD Blog API (`Users, Posts, Comments`)
 - Connect with DB
@@ -67,7 +65,7 @@ Each week contains:
 - Project structure & clean architecture
 - Docker + Deployment basics
 
-**Assignment (`Final Project`):**
+**Project (`Final Project`):**
 
 - Build a mini E`-commerce/Booking API`:
   - JWT Authentication
