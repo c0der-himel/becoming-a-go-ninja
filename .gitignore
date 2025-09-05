@@ -1,28 +1,61 @@
-# Binaries for programs and plugins
+# ==========================
+# Go build artifacts
+# ==========================
+/bin/
+/build/
 *.exe
 *.exe~
 *.dll
 *.so
 *.dylib
 
-# Test binary, coverage
-*.test
-*.out
-coverage.out
-
-# Go workspace files
-go.work
-go.sum
-
+# ==========================
 # Dependency directories
+# ==========================
 /vendor/
 
-# Editor directories and files
-.idea/
-.vscode/
+# ==========================
+# Go module files
+# ==========================
+# go.mod and go.sum should usually be committed!
+# Ignore only temporary files
+*.sum
+
+# ==========================
+# Editor & IDE files
+# ==========================
 *.swp
 *.swo
+*.tmp
+*.bak
+*.orig
+.vscode/
+.idea/
+*.iml
+
+# ==========================
+# OS-specific files
+# ==========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
 *.DS_Store
 
-# Logs
+# ==========================
+# Logs & temp files
+# ==========================
 *.log
+*.tmp
+*.temp
+
+# ==========================
+# Coverage & test outputs
+# ==========================
+coverage.out
+*.out
+_testmain.go
+
+# ==========================
+# Other
+# ==========================
+.env
